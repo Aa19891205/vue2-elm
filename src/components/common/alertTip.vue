@@ -5,7 +5,7 @@
                 <span></span>
                 <span></span>
             </div>
-            <p class="tip_text">{{alertText}}</p>
+            <p class="tip_text222">{{alertText}}</p>
             <div class="confrim" @click="closeTip">确认</div>
         </section>
     </div>
@@ -20,7 +20,7 @@
             }
         },
         mounted(){
-      
+
         },
         props: ['alertText'],
         methods: {
@@ -104,5 +104,5 @@
             border-bottom-right-radius: 0.25rem;
         }
     }
-    
+
 </style>
