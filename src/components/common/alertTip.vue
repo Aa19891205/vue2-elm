@@ -11,6 +11,8 @@
     </div>
 </template>
 
+
+
 <script>
     export default {
     	data(){
@@ -20,7 +22,7 @@
             }
         },
         mounted(){
-      
+
         },
         props: ['alertText'],
         methods: {
@@ -104,5 +106,5 @@
             border-bottom-right-radius: 0.25rem;
         }
     }
-    
+
 </style>
